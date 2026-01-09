@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from F1GC device
-$(call inherit-product, device/doogee/F1GC/device.mk)
+$(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_DEVICE := F1GC
 PRODUCT_NAME := omni_F1GC
