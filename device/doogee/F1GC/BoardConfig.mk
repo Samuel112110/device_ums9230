@@ -4,6 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+TARGET_DEVICE := F1GC
 
 DEVICE_PATH := device/doogee/F1GC
 
